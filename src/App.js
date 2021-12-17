@@ -1,9 +1,10 @@
-function App() {
-  return (
-    <div className="App">
-      <header>James Sgarella</header>
-    </div>
-  );
-}
+import React from "react";
+import PortfolioContainer from "./components/PortfolioContainer";
+
+const App = () => (
+  <>
+    <PortfolioContainer />
+  </>
+);
 
 export default App;
