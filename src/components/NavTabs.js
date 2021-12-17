@@ -2,9 +2,9 @@ import React from "react";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div>
+    <div className="z-index">
       <div>
-        <div className="p-4 p-md-5 mb-4 text-white rounded backgroundBlack">
+        <div className="p-4 p-md-5  text-white rounded backgroundBlack">
           <div>
             <ul className="nav nav-tabs nav-justified">
               <li className="nav-item">

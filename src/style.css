@@ -38,5 +38,23 @@
   margin-bottom: 30px;
 }
 .height {
-  height: 80vh;
+  height: 125vh;
+}
+
+.footer {
+  height: 100px;
+  position: relative;
+  left: 0;
+  bottom: 0px;
+  right: 0;
+}
+
+.zindex {
+  z-index: 2;
+}
+.whiteText {
+  color: white;
+}
+.positionAboslute {
+  position: absolute;
 }

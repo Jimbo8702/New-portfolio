@@ -3,7 +3,7 @@ import photo from "../../img/placeholder.png";
 
 export default function Top() {
   return (
-    <div className=" container backgroundBlue setPadding roundCorners">
+    <div className=" container backgroundBlue setPadding roundCorners ">
       <div className="row">
         <div className="col-md-7 ">
           <h1>Welcome!</h1>
@@ -15,7 +15,7 @@ export default function Top() {
 
         <div className="col-md-5">
           <div>
-            <img className="image" src={photo} alt="James" />
+            <img className="image img-fluid mx-auto " src={photo} alt="James" />
           </div>
         </div>
       </div>

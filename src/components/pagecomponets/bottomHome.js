@@ -2,7 +2,7 @@ import React from "react";
 import photo from "../../img/placeholder.png";
 export default function Bottom() {
   return (
-    <div className="container backgroundBlue roundCorners marginTop marginBottom">
+    <div className="container  roundCorners marginTop marginBottom whiteText">
       <div className="row ">
         <div className="col-lg-4 ">
           <div className="d-flex justify-content-center marginTop marginBottom">
