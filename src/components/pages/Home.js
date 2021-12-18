@@ -4,7 +4,7 @@ import Bottom from "../pagecomponets/bottomHome";
 import Background from "../Background";
 export default function Home() {
   return (
-    <div>
+    <div className="d-flex fancybackground">
       <Background />
     </div>
   );

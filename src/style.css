@@ -63,12 +63,26 @@
   max-height: 250px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .height {
-    height: 250vh;
+    height: 300vh;
   }
 }
 
 .topheight {
   height: 500px;
+}
+
+.fancybackground {
+  background: radial-gradient(ellipse at bottom, #0d1e31, #111);
+}
+.justifyItemsCenter {
+  justify-items: center;
+}
+.fancyText {
+  color: #5f91ff;
+}
+.marginBig {
+  margin-left: 25px;
+  margin-right: 25px;
 }

@@ -4,27 +4,29 @@ import Bottom from "./pagecomponets/bottomHome";
 import "../animate.css";
 export default function Background() {
   return (
-    <div className="height starbody   d-flex flex-wrap">
-      <div className="zindex ">
+    <div className="height starbody d-flex flex-wrap container  ">
+      <div className="zindex d-flex flex-column ">
         <Top />
         <Bottom />
       </div>
       <div className="night container ">
-        <div className="star"></div>
-        <div className="star"></div>
-        <div className="star"></div>
-        <div className="star"></div>
-        <div className="star"></div>
-        <div className="star"></div>
-        <div className="star"></div>
-        <div className="star"></div>
-        <div className="star"></div>
-        <div className="star"></div>
-        <div className="star"></div>
-        <div className="star"></div>
-        <div className="star"></div>
-        <div className="star"></div>
-        <div className="star"></div>
+        <div className="d-flex ">
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+        </div>
       </div>
     </div>
   );
