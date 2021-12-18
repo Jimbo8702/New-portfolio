@@ -9,6 +9,7 @@
 
 .night {
   z-index: 1;
+  display: flex;
   position: absolute;
   width: 90%;
   height: 100%;
@@ -239,4 +240,15 @@
 .star:nth-child(15)::before,
 .star:nth-child(15):after {
   animation-delay: 3.8s;
+}
+
+@media only screen and (max-width: 812px) {
+  .night {
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    width: 90%;
+    height: 50%;
+    transform: rotateZ(90deg);
+  }
 }
