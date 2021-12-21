@@ -11,7 +11,7 @@
   background-color: #2374ab;
 }
 .setPadding {
-  padding: 10px;
+  padding-bottom: 200px;
 }
 .roundCorners {
   border: 5px solid black;
@@ -85,4 +85,20 @@
 .marginBig {
   margin-left: 25px;
   margin-right: 25px;
+}
+
+.rowHeight {
+  height: 400px;
+}
+.paddingTop {
+  padding-top: 50px;
+}
+.noUnderline {
+  text-decoration: none;
+}
+.displayInline {
+  display: inline;
+}
+.marginLeft {
+  margin-left: 5px;
 }

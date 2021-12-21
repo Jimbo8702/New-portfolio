@@ -6,7 +6,7 @@ export default function Top() {
   const titleTwo = "</Back-End>";
 
   return (
-    <div className=" container  setPadding roundCorners d-flex topheight align-items-center flex-row justify-content-around">
+    <div className=" container  setPadding  d-flex topheight align-items-center flex-row justify-content-around">
       <div className=" d-flex  ">
         <div className="p-2 fancyText">
           <h1>{titleOne}</h1>
