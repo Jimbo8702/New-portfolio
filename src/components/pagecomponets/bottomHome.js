@@ -2,7 +2,7 @@ import React from "react";
 import photo from "../../img/placeholder.png";
 import GreenTrip from "../../img/Greentrip.png";
 import Note from "../../img/Note.png";
-
+import { Link } from "react-router-dom";
 export default function Bottom() {
   return (
     <div className="container roundCorners marginTop marginBottom whiteText paddingZero">
@@ -24,9 +24,9 @@ export default function Bottom() {
             text below the carousel. This is the first column.
           </p>
           <p>
-            <a className="btn btn-secondary" href="#Projects">
-              View details »
-            </a>
+            <Link className="btn  btn-block btn-squared" to={`/Projects`}>
+              <div className=" fancyText borderBottomBlue">Details</div>
+            </Link>
           </p>
         </div>
         <div className="col-lg-4 ">
@@ -40,9 +40,9 @@ export default function Bottom() {
             text below the carousel. This is the first column.
           </p>
           <p>
-            <a className="btn btn-secondary" href="#Projects">
-              View details »
-            </a>
+            <Link className="btn  btn-block btn-squared" to={`/Projects`}>
+              <div className="fancyText borderBottomBlue">Details</div>
+            </Link>
           </p>
         </div>
         <div className="col-lg-4 ">
@@ -62,9 +62,9 @@ export default function Bottom() {
           <h2>Project Three</h2>
           <p>Coming soon! Still on the grind for this one!</p>
           <p>
-            <a className="btn btn-secondary" href="#Projects">
-              View details »
-            </a>
+            <Link className="btn  btn-block btn-squared" to={`/Projects`}>
+              <div className="fancyText borderBottomBlue">Details</div>
+            </Link>
           </p>
         </div>
       </div>
