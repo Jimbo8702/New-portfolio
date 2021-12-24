@@ -8,7 +8,7 @@
 }
 
 .backgroundBlue {
-  background-color: #2374ab;
+  background-color: #5f91ff;
 }
 .setPadding {
   padding-bottom: 200px;
@@ -101,4 +101,7 @@
 }
 .marginLeft {
   margin-left: 5px;
+}
+.borderBottomBlue {
+  border-bottom: 2px solid #5f91ff;
 }

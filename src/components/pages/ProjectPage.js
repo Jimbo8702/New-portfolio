@@ -2,8 +2,8 @@ import React from "react";
 import photo from "../../img/placeholder.png";
 import GreenTrip from "../../img/Greentrip.png";
 import Note from "../../img/Note.png";
-//project page not yet updated names for loading
-export default function About() {
+
+export default function Projects() {
   const arrow = "<-----";
   return (
     <div className="container fancybackground fancyText paddingTop">
@@ -13,7 +13,7 @@ export default function About() {
             GreenTrip Planner.{" "}
             <span className="text-muted">Know your carbon foot print.</span>
           </h2>
-          <p className="lead  ">
+          <p className="lead">
             Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
             ligula porta felis euismod semper. Praesent commodo cursus magna,
             vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus

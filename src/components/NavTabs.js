@@ -1,55 +1,32 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function NavTabs({ currentPage, handlePageChange }) {
+function NavTabs() {
   return (
     <div className="z-index">
       <div>
-        <div className="p-4 p-md-5  text-white rounded backgroundBlack">
+        <div className="p-4 p-md-5  text-white rounded marginBottom backgroundBlack borderBottomBlue">
           <div>
-            <ul className="nav nav-tabs nav-justified">
+            <ul className="nav  nav-justified">
               <li className="nav-item">
-                <a
-                  href="#home"
-                  onClick={() => handlePageChange("Home")}
-                  className={
-                    currentPage === "Home" ? "nav-link active" : "nav-link"
-                  }
-                >
-                  Home
-                </a>
+                <Link className="btn  btn-block btn-squared" to={`/`}>
+                  <div className="fancyText borderBottomBlue">Home</div>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
-                  href="#about"
-                  onClick={() => handlePageChange("About")}
-                  className={
-                    currentPage === "About" ? "nav-link active" : "nav-link"
-                  }
-                >
-                  Projects
-                </a>
+                <Link className="btn  btn-block btn-squared" to={`/Projects`}>
+                  <div className="fancyText borderBottomBlue">Projects</div>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
-                  href="#blog"
-                  onClick={() => handlePageChange("Blog")}
-                  className={
-                    currentPage === "Blog" ? "nav-link active" : "nav-link"
-                  }
-                >
-                  Portfolio
-                </a>
+                <Link className="btn  btn-block btn-squared" to={`/Portfolio`}>
+                  <div className="fancyText borderBottomBlue">Portfolio</div>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
-                  href="#contact"
-                  onClick={() => handlePageChange("Contact")}
-                  className={
-                    currentPage === "Contact" ? "nav-link active" : "nav-link"
-                  }
-                >
-                  Contact
-                </a>
+                <Link className="btn  btn-block btn-squared" to={`/Contact`}>
+                  <div className="fancyText borderBottomBlue">Contact</div>
+                </Link>
               </li>
             </ul>
           </div>

@@ -24,7 +24,7 @@ export default function Bottom() {
             text below the carousel. This is the first column.
           </p>
           <p>
-            <a className="btn btn-secondary" href="#">
+            <a className="btn btn-secondary" href="#Projects">
               View details »
             </a>
           </p>
@@ -40,7 +40,7 @@ export default function Bottom() {
             text below the carousel. This is the first column.
           </p>
           <p>
-            <a className="btn btn-secondary" href="#">
+            <a className="btn btn-secondary" href="#Projects">
               View details »
             </a>
           </p>
@@ -62,7 +62,7 @@ export default function Bottom() {
           <h2>Project Three</h2>
           <p>Coming soon! Still on the grind for this one!</p>
           <p>
-            <a className="btn btn-secondary" href="#">
+            <a className="btn btn-secondary" href="#Projects">
               View details »
             </a>
           </p>
