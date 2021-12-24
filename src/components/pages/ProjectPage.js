@@ -6,11 +6,11 @@ import Note from "../../img/Note.png";
 export default function Projects() {
   const arrow = "<-----";
   return (
-    <div className="container fancybackground fancyText paddingTop">
+    <div className="container fancybackground fancyText paddingTop ">
       <div className="row rowHeight ">
         <div className="col-md-7 ">
           <h2 className="">
-            GreenTrip Planner.{" "}
+            GreenTrip Planner.
             <span className="text-muted">Know your carbon foot print.</span>
           </h2>
           <p className="lead">

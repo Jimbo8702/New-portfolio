@@ -65,7 +65,7 @@
 
 @media only screen and (max-width: 1000px) {
   .height {
-    height: 300vh;
+    height: 250vh;
   }
 }
 
@@ -104,4 +104,14 @@
 }
 .borderBottomBlue {
   border-bottom: 2px solid #5f91ff;
+}
+
+.overflowHidden {
+  overflow: hidden;
+}
+.paddingZero {
+  padding: 0px;
+}
+.textToCenter {
+  text-align: center;
 }

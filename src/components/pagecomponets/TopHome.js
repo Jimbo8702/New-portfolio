@@ -6,10 +6,10 @@ export default function Top() {
   const titleTwo = "</Back-End>";
 
   return (
-    <div className=" container  setPadding  d-flex topheight align-items-center flex-row justify-content-around">
-      <div className=" d-flex  ">
-        <div className="p-2 fancyText">
-          <h1>{titleOne}</h1>
+    <div className=" container  setPadding  ">
+      <div className="d-flex  justify-content-around">
+        <div className=" d-flex  flex-column fancyText ">
+          <h1 className="textToCenter">{titleOne}</h1>
           <div className="lead d-flex justify-content-center">
             <ul>
               <li>HTML</li>
@@ -20,13 +20,13 @@ export default function Top() {
           </div>
         </div>
 
-        <div className="p-2 marginBig">
+        <div className=" marginBig">
           <div className="d-flex align-items-center marginBig">
             <img className="img-fluid mx-auto " src={photo} alt="James" />
           </div>
         </div>
-        <div className="p-2 fancyText">
-          <h1>{titleTwo}</h1>
+        <div className=" d-flex   flex-column fancyText">
+          <h1 className="textToCenter">{titleTwo}</h1>
           <div className="lead d-flex justify-content-center">
             <ul>
               <li>Node</li>

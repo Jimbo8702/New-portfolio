@@ -5,11 +5,11 @@ import "../animate.css";
 export default function Background() {
   return (
     <div className="height starbody d-flex flex-wrap container  ">
-      <div className="zindex d-flex flex-column ">
+      <div className="zindex  flex-column ">
         <Top />
         <Bottom />
       </div>
-      <div className="night container ">
+      <div className="night overflowHidden ">
         <div className="d-flex ">
           <div className="star"></div>
           <div className="star"></div>

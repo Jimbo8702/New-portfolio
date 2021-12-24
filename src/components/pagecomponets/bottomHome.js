@@ -5,9 +5,9 @@ import Note from "../../img/Note.png";
 
 export default function Bottom() {
   return (
-    <div className="container  roundCorners marginTop marginBottom whiteText d-flex">
+    <div className="container roundCorners marginTop marginBottom whiteText paddingZero">
       <div className="row ">
-        <div className="col-lg-4 ">
+        <div className="  col-lg-4 ">
           <div className="d-flex justify-content-center marginTop marginBottom">
             <div>
               <img
