@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/New-portfolio/static/css/main.16b31433.css",
-    "main.js": "/New-portfolio/static/js/main.fd9ed5bc.js",
+    "main.css": "/New-portfolio/static/css/main.41e820a5.css",
+    "main.js": "/New-portfolio/static/js/main.3bad548f.js",
     "static/media/Greentrip.png": "/New-portfolio/static/media/Greentrip.d9012c54fb8ed88151d9.png",
     "static/media/Note.png": "/New-portfolio/static/media/Note.1ed0dee8986a8787c40a.png",
     "index.html": "/New-portfolio/index.html",
-    "main.16b31433.css.map": "/New-portfolio/static/css/main.16b31433.css.map",
-    "main.fd9ed5bc.js.map": "/New-portfolio/static/js/main.fd9ed5bc.js.map"
+    "main.41e820a5.css.map": "/New-portfolio/static/css/main.41e820a5.css.map",
+    "main.3bad548f.js.map": "/New-portfolio/static/js/main.3bad548f.js.map"
   },
   "entrypoints": [
-    "static/css/main.16b31433.css",
-    "static/js/main.fd9ed5bc.js"
+    "static/css/main.41e820a5.css",
+    "static/js/main.3bad548f.js"
   ]
 }
