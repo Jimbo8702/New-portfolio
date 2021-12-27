@@ -115,3 +115,10 @@
 .textToCenter {
   text-align: center;
 }
+.icons {
+  height: 50px;
+  width: 50px;
+}
+.smallText {
+  font-size: 25px;
+}

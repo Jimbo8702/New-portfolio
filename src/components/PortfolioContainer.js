@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import NavTabs from "./NavTabs";
 import Home from "./pages/Home";
 import Projects from "./pages/ProjectPage";
-import Blog from "./pages/Blog";
+import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Footer from "./footer";
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -14,7 +14,7 @@ export default function PortfolioContainer() {
         <NavTabs />
         <Route exact path="/" component={Home} />
         <Route exact path="/Projects" component={Projects} />
-        <Route exact path="/Portfolio" component={Blog} />
+        <Route exact path="/Portfolio" component={Portfolio} />
         <Route exact path="/Contact" component={Contact} />
       </Router>
 
