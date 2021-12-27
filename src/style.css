@@ -67,6 +67,12 @@
   .height {
     height: 250vh;
   }
+  .noOverLap {
+    margin-bottom: 150px;
+  }
+  .mobileHieght {
+    height: 250vh;
+  }
 }
 
 .topheight {

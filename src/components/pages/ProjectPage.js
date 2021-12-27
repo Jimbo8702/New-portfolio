@@ -6,8 +6,8 @@ import Note from "../../img/Note.png";
 export default function Projects() {
   const arrow = "<-----";
   return (
-    <div className="container fancybackground fancyText paddingTop ">
-      <div className="row rowHeight ">
+    <div className="container fancybackground fancyText paddingTop mobileHieght">
+      <div className="row rowHeight noOverLap">
         <div className="col-md-7 ">
           <h2 className="">
             GreenTrip Planner.
@@ -37,7 +37,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className="row rowHeight">
+      <div className="row rowHeight noOverLap">
         <div className="col-md-7 order-md-2">
           <h2 className="">
             Note. <span className="text-muted">Meet through music.</span>
@@ -64,7 +64,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className="row rowHeight">
+      <div className="row rowHeight noOverLap">
         <div className="col-md-7">
           <h2 className="">
             Third Project. <span className="text-muted">Simply the best.</span>
