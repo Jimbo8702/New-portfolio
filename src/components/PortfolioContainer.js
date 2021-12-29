@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 export default function PortfolioContainer() {
   return (
-    <div className="fancybackground ">
+    <div className="fancybackground">
       <Router>
         <NavTabs />
         <Route exact path="/" component={Home} />

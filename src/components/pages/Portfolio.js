@@ -5,7 +5,7 @@ import html from "../../img/html5.png";
 import js from "../../img/js.png";
 export default function Portfolio() {
   return (
-    <div className="height d-flex flex-wrap">
+    <div className="height d-flex container">
       <div className="d-flex container topheight">
         <div className="" style={{ width: "20%" }}>
           <img className="img-fluid roundCorners" src={photo} />
