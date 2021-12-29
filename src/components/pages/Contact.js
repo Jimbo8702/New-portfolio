@@ -1,22 +1,30 @@
-import React from 'react';
-
+import React from "react";
+import { Form, Button } from "react-bootstrap";
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+    <div className="d-flex flex-column  justify-content-around height">
+      <div className=" container roundCorners fancyText p-2">
+        <h1 className="text-center">Like what you see? Reach out!</h1>
+        <Form>
+          <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Label>Send me your email!</Form.Label>
+            <Form.Control type="email" placeholder="Enter email" />
+            <Form.Text>It's safe with me. I promise.</Form.Text>
+          </Form.Group>
+
+          <Button variant="primary" type="submit">
+            Submit
+          </Button>
+        </Form>
+      </div>
+      <div className="container roundCorners fancyText p-2 ">
+        <h1 className="text-center">Other ways to reach me!</h1>
+        <div className="d-flex flex-row justify-content-around">
+          <div className="roundCorners image"></div>
+          <div className="roundCorners image"></div>
+          <div className="roundCorners image"></div>
+        </div>
+      </div>
     </div>
   );
 }
