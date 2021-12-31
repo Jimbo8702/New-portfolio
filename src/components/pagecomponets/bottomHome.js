@@ -20,8 +20,10 @@ export default function Bottom() {
 
           <h2>GreenTrip Planner</h2>
           <p>
-            Some representative placeholder content for the three columns of
-            text below the carousel. This is the first column.
+            If individuals are able to quantify the time vs. money vs. CO2
+            relationship of different methods of transit, then individuals will
+            be able to make better informed decisions about what to prioritize
+            for different trips.
           </p>
           <p>
             <Link className="btn  btn-block btn-squared" to={`/Projects`}>
@@ -36,8 +38,8 @@ export default function Bottom() {
 
           <h2>Note</h2>
           <p>
-            Some representative placeholder content for the three columns of
-            text below the carousel. This is the first column.
+            Meet people through music. Whether its by favorite song, genre, or
+            instrument, go to Note and find those who share similar taste.
           </p>
           <p>
             <Link className="btn  btn-block btn-squared" to={`/Projects`}>

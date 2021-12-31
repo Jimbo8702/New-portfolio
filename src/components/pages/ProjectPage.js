@@ -14,10 +14,13 @@ export default function Projects() {
             <span className="text-muted">Know your carbon foot print.</span>
           </h2>
           <p className="lead">
-            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
-            ligula porta felis euismod semper. Praesent commodo cursus magna,
-            vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-            commodo.
+            GreenTrip Planner was made for those who want to see their carbon
+            footprint while traveling. Given two locations, GreenTrip Planner
+            uses the Positionstack API to get a laditude and longitude. Then
+            takes them and uses the Here developer API to draw a map on the main
+            page. Along with some JavaScript logic, you get a map with a route
+            of your trip and the carbon emissions based on a nation average for
+            standard travel.
           </p>
           <div>
             <div className="d-flex ">
@@ -43,10 +46,12 @@ export default function Projects() {
             Note. <span className="text-muted">Meet through music.</span>
           </h2>
           <p className="lead">
-            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
-            ligula porta felis euismod semper. Praesent commodo cursus magna,
-            vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-            commodo.
+            Music connects people, and with Note we hope to make more
+            connections through music. Note uses a restful API along with Mysql
+            for creating accounts and passing login authenfication. The user can
+            select genre groupchats and see all posts associated with that
+            genre. Adding/making private chats was a goal in the future of
+            development for Note.
           </p>
           <div>
             <div className="d-flex ">

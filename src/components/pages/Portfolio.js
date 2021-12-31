@@ -10,7 +10,7 @@ export default function Portfolio() {
         <div className="" style={{ width: "20%" }}>
           <img className="img-fluid roundCorners" src={photo} />
           <h1 className="fancyText smallText text-center ">James Sgarella</h1>
-          <div className=" d-flex justify-content-center">
+          <div className=" d-flex justify-content-center container">
             <img className="icons" src={css} />
             <img className="icons" src={html} />
             <img className="icons" src={js} />
@@ -21,19 +21,15 @@ export default function Portfolio() {
           className="fancyText d-flex d-block justify-content-center marginBig roundCorners"
           style={{ width: "80%" }}
         >
-          <div>
+          <div className="container">
             <h1 className="text-center">About Me</h1>
             <p className="p-2">
               {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl
-              purus in mollis nunc sed id. Maecenas pharetra convallis posuere
-              morbi leo urna molestie. Vestibulum mattis ullamcorper velit sed
-              ullamcorper morbi. Morbi tristique senectus et netus et malesuada
-              fames ac turpis. Vitae purus faucibus ornare suspendisse sed nisi
-              lacus sed. Auctor urna nunc id cursus metus. Neque ornare aenean
-              euismod elementum. Sollicitudin tempor id eu nisl nunc mi ipsum
-              faucibus. Tincidunt dui ut ornare lectus sit amet est placerat.{" "}
+              My name is James Sgarella. I am an entry level Web Developer with
+              Full stack expierence. 19 and still new to the game, I enrolled in
+              the Columbia Enginnering Coding BootCamp in Octuber 2021. With a
+              long list of working projects to futher improve my skills, my time
+              in the development world has just begun, with a lot ahead.{" "}
             </p>
           </div>
         </div>
