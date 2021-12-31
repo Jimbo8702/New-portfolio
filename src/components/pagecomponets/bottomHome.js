@@ -5,7 +5,7 @@ import Note from "../../img/Note.png";
 import { Link } from "react-router-dom";
 export default function Bottom() {
   return (
-    <div className="container roundCorners marginTop marginBottom whiteText paddingZero">
+    <div className=" fancyText container roundCorners marginTop marginBottom whiteText paddingZero">
       <div className="row ">
         <div className="  col-lg-4 ">
           <div className="d-flex justify-content-center marginTop marginBottom">

@@ -13,6 +13,7 @@ export default function PortfolioContainer() {
       <Router>
         <NavTabs />
         <Route exact path="/" component={Home} />
+        <Route exact path="/New-portfolio" component={Home} />
         <Route exact path="/Projects" component={Projects} />
         <Route exact path="/Portfolio" component={Portfolio} />
         <Route exact path="/Contact" component={Contact} />
