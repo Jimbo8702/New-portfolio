@@ -249,7 +249,19 @@
     display: flex;
     position: absolute;
     width: 100%;
+    height: 100%;
+    transform: rotateZ(90deg);
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .night {
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    width: 100%;
     height: 46%;
     transform: rotateZ(90deg);
+    overflow: hidden;
   }
 }

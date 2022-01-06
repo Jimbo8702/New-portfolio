@@ -23,11 +23,6 @@ function NavTabs() {
                   <div className="fancyText borderBottomBlue">Portfolio</div>
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="btn  btn-block btn-squared" to={`/Contact`}>
-                  <div className="fancyText borderBottomBlue">Contact</div>
-                </Link>
-              </li>
             </ul>
           </div>
         </div>

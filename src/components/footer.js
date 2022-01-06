@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="footer">
-      <div className="p-4 p-md-5 mb-4 text-white rounded backgroundBlack  ">
+    <div className="footer d-flex text-white justify-content-center align-items-center">
+      <div className="">
         <div>
           <p>Copyright @JamesSgarella</p>
         </div>

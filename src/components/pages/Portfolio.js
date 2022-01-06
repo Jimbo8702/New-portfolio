@@ -1,24 +1,18 @@
 import React from "react";
 import photo from "../../img/placeholder.png";
-import css from "../../img/css-3.png";
-import html from "../../img/html5.png";
-import js from "../../img/js.png";
+
+import { Form, Button } from "react-bootstrap";
 export default function Portfolio() {
   return (
-    <div className="height d-flex container">
-      <div className="d-flex container topheight">
-        <div className="" style={{ width: "20%" }}>
+    <div className="height d-flex  justify-content-center ">
+      <div className="d-flex container topheight mobilePortfolio mb-5 ">
+        <div className="d-flex flex-column" style={{ width: "20%" }}>
           <img className="img-fluid roundCorners" src={photo} />
           <h1 className="fancyText smallText text-center ">James Sgarella</h1>
-          <div className=" d-flex justify-content-center container">
-            <img className="icons" src={css} />
-            <img className="icons" src={html} />
-            <img className="icons" src={js} />
-          </div>
         </div>
 
         <div
-          className="fancyText d-flex d-block justify-content-center marginBig roundCorners"
+          className="fancyText d-flex justify-content-center marginBig "
           style={{ width: "80%" }}
         >
           <div className="container">
@@ -31,6 +25,21 @@ export default function Portfolio() {
               long list of working projects to futher improve my skills, my time
               in the development world has just begun, with a lot ahead.{" "}
             </p>
+          </div>
+        </div>
+        <div
+          className="fancyText d-flex justify-content-center mt-5 flex-column"
+          style={{ width: "80%" }}
+        >
+          <h1 className="text-center">Contact me</h1>
+          <div className="container"></div>
+
+          <div className="container">
+            <div className="d-flex justify-content-center ">
+              <a className="backgroundBlue roundCorners atagDecor">GitHub</a>
+              <a className="backgroundBlue roundCorners atagDecor">LinkedIn</a>
+              <a className="backgroundBlue roundCorners atagDecor">Resume</a>
+            </div>
           </div>
         </div>
       </div>

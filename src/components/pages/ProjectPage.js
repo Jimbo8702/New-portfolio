@@ -6,7 +6,7 @@ import Note from "../../img/Note.png";
 export default function Projects() {
   const arrow = "<-----";
   return (
-    <div className="container fancyText paddingTop mobileHieght">
+    <div className=" container fancyText paddingTop">
       <div className="row rowHeight noOverLap">
         <div className="col-md-7 ">
           <h2 className="">

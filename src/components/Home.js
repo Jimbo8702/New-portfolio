@@ -1,13 +1,11 @@
 import React from "react";
-import Top from "./pagecomponets/TopHome";
-import Bottom from "./pagecomponets/bottomHome";
+import Top from "./pages/TopHome";
 import "../animate.css";
-export default function Background() {
+export default function Home() {
   return (
-    <div className="height starbody d-flex flex-wrap container  ">
-      <div className="zindex  flex-column ">
+    <div className="height starbody d-flex flex-wrap  ">
+      <div className="zindex flex-column widthplus container">
         <Top />
-        <Bottom />
       </div>
       <div className="night overflowHidden ">
         <div className="d-flex ">
