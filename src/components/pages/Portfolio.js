@@ -1,7 +1,6 @@
 import React from "react";
 import photo from "../../img/placeholder.png";
 
-import { Form, Button } from "react-bootstrap";
 export default function Portfolio() {
   return (
     <div className="height d-flex  justify-content-center ">
@@ -15,7 +14,7 @@ export default function Portfolio() {
           className="fancyText d-flex justify-content-center marginBig "
           style={{ width: "80%" }}
         >
-          <div className="container">
+          <div className="container mb-3 mt-5">
             <h1 className="text-center">About Me</h1>
             <p className="p-2">
               {" "}
@@ -36,8 +35,18 @@ export default function Portfolio() {
 
           <div className="container">
             <div className="d-flex justify-content-center ">
-              <a className="backgroundBlue roundCorners atagDecor">GitHub</a>
-              <a className="backgroundBlue roundCorners atagDecor">LinkedIn</a>
+              <a
+                href="https://github.com/Jimbo8702"
+                className="backgroundBlue roundCorners atagDecor"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://www.linkedin.com/in/james-sgarella-35a8b8197/"
+                className="backgroundBlue roundCorners atagDecor"
+              >
+                LinkedIn
+              </a>
               <a className="backgroundBlue roundCorners atagDecor">Resume</a>
             </div>
           </div>
