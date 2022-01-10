@@ -3,8 +3,8 @@ import photo from "../../img/placeholder.png";
 
 export default function Portfolio() {
   return (
-    <div className="height d-flex  justify-content-center ">
-      <div className="d-flex container topheight mobilePortfolio mb-5 ">
+    <div className=" mobileHieght d-flex justify-content-center overflowHidden heightInherit">
+      <div className="d-flex container topheight  mobilePortfolio mb-5 heightInherit ">
         <div className="d-flex flex-column" style={{ width: "20%" }}>
           <img className="img-fluid roundCorners" src={photo} />
           <h1 className="fancyText smallText text-center ">James Sgarella</h1>
@@ -31,6 +31,7 @@ export default function Portfolio() {
           style={{ width: "80%" }}
         >
           <h1 className="text-center">Contact me</h1>
+          <h3 className="text-center">Email: Jimbo8702@gmail.com</h3>
           <div className="container"></div>
 
           <div className="container">

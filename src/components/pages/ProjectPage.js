@@ -2,16 +2,17 @@ import React from "react";
 import photo from "../../img/placeholder.png";
 import GreenTrip from "../../img/Greentrip.png";
 import Note from "../../img/Note.png";
+import focus from "../../img/focus.png";
 
 export default function Projects() {
   const arrow = "<-----";
   return (
-    <div className=" container fancyText paddingTop">
+    <div className="container d-flex flex-column justify-content-around fancyText projectHeight ">
       <div className="row rowHeight noOverLap">
         <div className="col-md-7 ">
           <h2 className="">
             GreenTrip Planner.
-            <span className="text-muted">Know your carbon foot print.</span>
+            <span className="text-muted"> Know your carbon foot print.</span>
           </h2>
           <p className="lead">
             GreenTrip Planner was made for those who want to see their carbon
@@ -72,27 +73,30 @@ export default function Projects() {
       <div className="row rowHeight noOverLap">
         <div className="col-md-7">
           <h2 className="">
-            Third Project. <span className="text-muted">Simply the best.</span>
+            Focus.{" "}
+            <span className="text-muted"> Minimalistic communication.</span>
           </h2>
           <p className="lead">
-            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
-            ligula porta felis euismod semper. Praesent commodo cursus magna,
-            vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-            commodo.
+            Focus is a communication app with a Minimalistic design that allows
+            for simple communication with friend through a friend code. Focus
+            allowed me to explore socket.io and working with real time
+            communication. When an account is created a uuid is also generated,
+            that uuid acts like a phone number to create contacts and
+            conversations with friends.
           </p>
           <div>
             <div className="d-flex ">
-              <a href="">Coming soon...</a>
+              <a href="https://github.com/sagegrayson/PR3-Focus">GitHub Repo</a>
               <div className="noUnderline marginLeft">{arrow}</div>
             </div>
             <div className="d-flex ">
-              <a href="">Coming soon...</a>
+              <a href="https://focus-deploy.herokuapp.com">Focus</a>
               <div className="noUnderline marginLeft">{arrow}</div>
             </div>
           </div>
         </div>
         <div className="col-md-5">
-          <img className=" img-fluid mx-auto" alt="500x500" src={photo} />
+          <img className=" img-fluid mx-auto" alt="500x500" src={focus} />
         </div>
       </div>
     </div>

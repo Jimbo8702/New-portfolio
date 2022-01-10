@@ -6,8 +6,8 @@ export default function Top() {
   const titleTwo = "</Back-End>";
 
   return (
-    <div className="d-flex heighthome container align-items-center justify-content-center ">
-      <div className="d-flex  justify-content-around">
+    <div className="d-flex heighthome container align-items-center justify-content-center">
+      <div className="d-flex  justify-content-around flexColumn">
         <div className=" d-flex  flex-column fancyText ">
           <h1 className="textToCenter">{titleOne}</h1>
           <div className="lead d-flex justify-content-center">
