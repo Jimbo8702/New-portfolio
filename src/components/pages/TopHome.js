@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "../../img/placeholder.png";
+import self1 from "../../img/self1.JPG";
 
 export default function Top() {
   const titleOne = "<Front-End>";
@@ -20,9 +20,14 @@ export default function Top() {
           </div>
         </div>
 
-        <div className=" marginBig">
-          <div className="d-flex align-items-center marginBig">
-            <img className="img-fluid mx-auto " src={photo} alt="James" />
+        <div className=" marginBig fancyText">
+          <div className="d-flex align-items-center  flex-column photo">
+            <img
+              className="img-fluid mx-auto roundCorners"
+              src={self1}
+              alt="James"
+            />
+            <h1 lassName="mt-5 ">James Sgarella</h1>
           </div>
         </div>
         <div className=" d-flex   flex-column fancyText">

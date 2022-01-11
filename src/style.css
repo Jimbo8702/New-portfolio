@@ -161,3 +161,7 @@
 .heightInherit {
   height: inherit;
 }
+.photo {
+  height: 400px;
+  width: 400px;
+}

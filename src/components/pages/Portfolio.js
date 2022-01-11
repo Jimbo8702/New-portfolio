@@ -1,12 +1,12 @@
 import React from "react";
-import photo from "../../img/placeholder.png";
+import self2 from "../../img/self2.JPG";
 
 export default function Portfolio() {
   return (
     <div className=" mobileHieght d-flex justify-content-center overflowHidden heightInherit">
       <div className="d-flex container topheight  mobilePortfolio mb-5 heightInherit ">
         <div className="d-flex flex-column" style={{ width: "20%" }}>
-          <img className="img-fluid roundCorners" src={photo} />
+          <img className="img-fluid roundCorners photo" src={self2} />
           <h1 className="fancyText smallText text-center ">James Sgarella</h1>
         </div>
 
