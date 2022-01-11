@@ -102,6 +102,10 @@
 }
 .fancyText {
   color: #5f91ff;
+  font-family: "Roboto Mono", monospace;
+}
+.fontSizeBig {
+  font-size: 20px;
 }
 .marginBig {
   margin-left: 25px;
@@ -164,4 +168,7 @@
 .photo {
   height: 400px;
   width: 400px;
+}
+.list {
+  direction: rtl;
 }

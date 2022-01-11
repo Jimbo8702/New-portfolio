@@ -10,17 +10,17 @@ function NavTabs() {
             <ul className="nav  nav-justified">
               <li className="nav-item">
                 <Link className="btn  btn-block btn-squared" to={`/`}>
-                  <div className="fancyText borderBottomBlue">Home</div>
+                  <div className="fancyText fontSizeBig ">Home</div>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="btn  btn-block btn-squared" to={`/Projects`}>
-                  <div className="fancyText borderBottomBlue">Projects</div>
+                  <div className="fancyText fontSizeBig">Projects</div>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="btn  btn-block btn-squared" to={`/Portfolio`}>
-                  <div className="fancyText borderBottomBlue">Portfolio</div>
+                  <div className="fancyText fontSizeBig">Portfolio</div>
                 </Link>
               </li>
             </ul>

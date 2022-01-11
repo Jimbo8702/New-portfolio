@@ -26,6 +26,39 @@ export default function Portfolio() {
             </p>
           </div>
         </div>
+
+        <div
+          className="fancyText d-flex justify-content-center mt-5 flex-column"
+          style={{ width: "80%" }}
+        >
+          <h1 className="text-center">Tech Skills</h1>
+          <p className="text-center">
+            This is a running list of all the technologies I've worked with.
+            Examples of what I've built are on the Project page.
+          </p>
+          <div className="d-flex justify-content-around">
+            <div className="d-flex flex-column align-items-center">
+              <h3>Front-End</h3>
+              <ul>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>React+React-native</li>
+                <li>Handlebars</li>
+              </ul>
+            </div>
+            <div className="list d-flex flex-column align-items-center">
+              <h3>Back-End</h3>
+              <ul>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Grapql</li>
+                <li>Node.js + Express.js</li>
+                <li>Socket.io</li>
+              </ul>
+            </div>
+          </div>
+        </div>
         <div
           className="fancyText d-flex justify-content-center mt-5 flex-column"
           style={{ width: "80%" }}
