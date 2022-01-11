@@ -7,7 +7,7 @@ import focus from "../../img/focus.png";
 export default function Projects() {
   const arrow = "<-----";
   return (
-    <div className="container d-flex flex-column justify-content-around fancyText projectHeight ">
+    <div className="container d-flex flex-column justify-content-around fancyText projectHeight mb-5">
       <div className="row rowHeight noOverLap">
         <div className="col-md-7 ">
           <h2 className="">

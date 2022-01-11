@@ -4,7 +4,7 @@ import "../animate.css";
 export default function Home() {
   return (
     <div className="height starbody d-flex flex-wrap  ">
-      <div className="zindex flex-column widthplus container">
+      <div className="zindex flex-column widthplus container mobileHieght mt-5">
         <Top />
       </div>
       <div className="night overflowHidden ">

@@ -21,9 +21,9 @@ export default function Top() {
         </div>
 
         <div className=" marginBig fancyText">
-          <div className="d-flex align-items-center  flex-column photo">
+          <div className="d-flex align-items-center  flex-column ">
             <img
-              className="img-fluid mx-auto roundCorners"
+              className="img-fluid mx-auto roundCorners  photo"
               src={self1}
               alt="James"
             />
