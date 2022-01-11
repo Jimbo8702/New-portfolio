@@ -88,7 +88,13 @@
   .projectHeight {
     height: 300vh;
   }
+  .mobileproject {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
+
 .mobilePortfolio {
   flex-direction: column;
   align-items: center;
@@ -175,4 +181,8 @@
 }
 .list {
   direction: rtl;
+}
+.projectphoto {
+  height: 1000px;
+  width: 2000px;
 }
