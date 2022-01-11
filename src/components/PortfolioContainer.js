@@ -5,6 +5,7 @@ import Projects from "./pages/ProjectPage";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Footer from "./footer";
+
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 export default function PortfolioContainer() {

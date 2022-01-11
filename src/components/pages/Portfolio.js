@@ -1,6 +1,6 @@
 import React from "react";
 import self2 from "../../img/self2.JPG";
-
+import Resume from "../../img/Resume-2.pdf";
 export default function Portfolio() {
   return (
     <div className=" mobileHieght d-flex justify-content-center overflowHidden heightInherit">
@@ -81,7 +81,13 @@ export default function Portfolio() {
               >
                 LinkedIn
               </a>
-              <a className="backgroundBlue roundCorners atagDecor">Resume</a>
+
+              <a
+                href={Resume}
+                className="backgroundBlue roundCorners atagDecor"
+              >
+                Resume
+              </a>
             </div>
           </div>
         </div>
