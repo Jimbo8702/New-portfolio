@@ -52,8 +52,8 @@ export default function Projects() {
           </h2>
           <p className="lead">
             Music connects people, and with Note we hope to make more
-            connections through music. Note uses a restful API along with Mysql
-            for creating accounts and passing login authenfication. The user can
+            connections through music. Note uses a restful API along with MySQL
+            for creating accounts and passing login authentication. The user can
             select genre groupchats and see all posts associated with that
             genre. Adding/making private chats was a goal in the future of
             development for Note.
@@ -87,7 +87,7 @@ export default function Projects() {
           <p className="lead">
             Focus is a communication app with a Minimalistic design that allows
             for simple communication with friend through a friend code. Focus
-            allowed me to explore socket.io and working with real time
+            allowed me to explore Socket.io and working with real time
             communication. When an account is created a uuid is also generated,
             that uuid acts like a phone number to create contacts and
             conversations with friends.
