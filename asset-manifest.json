@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/New-portfolio/static/css/main.60071141.css",
-    "main.js": "/New-portfolio/static/js/main.bc6b36cc.js",
+    "main.css": "/New-portfolio/static/css/main.3fc94efc.css",
+    "main.js": "/New-portfolio/static/js/main.5ac0c6f9.js",
     "static/media/self1.JPG": "/New-portfolio/static/media/self1.76400729ac185bfb178b.JPG",
     "static/media/self2.JPG": "/New-portfolio/static/media/self2.7b8472f754cfe5d63dbd.JPG",
     "static/media/Greentrip.png": "/New-portfolio/static/media/Greentrip.d9012c54fb8ed88151d9.png",
-    "static/media/Note.png": "/New-portfolio/static/media/Note.1ed0dee8986a8787c40a.png",
+    "static/media/note-1.png": "/New-portfolio/static/media/note-1.b0f14b471797d635f3fd.png",
     "static/media/focus.png": "/New-portfolio/static/media/focus.d8a6269014f8e85ce793.png",
     "index.html": "/New-portfolio/index.html",
-    "main.60071141.css.map": "/New-portfolio/static/css/main.60071141.css.map",
-    "main.bc6b36cc.js.map": "/New-portfolio/static/js/main.bc6b36cc.js.map"
+    "main.3fc94efc.css.map": "/New-portfolio/static/css/main.3fc94efc.css.map",
+    "main.5ac0c6f9.js.map": "/New-portfolio/static/js/main.5ac0c6f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.60071141.css",
-    "static/js/main.bc6b36cc.js"
+    "static/css/main.3fc94efc.css",
+    "static/js/main.5ac0c6f9.js"
   ]
 }
