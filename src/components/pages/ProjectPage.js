@@ -1,15 +1,15 @@
 import React from "react";
 import photo from "../../img/placeholder.png";
 import GreenTrip from "../../img/Greentrip.png";
-import Note from "../../img/Note.png";
+import Note from "../../img/note-1.png";
 import focus from "../../img/focus.png";
 
 export default function Projects() {
   const arrow = "<-----";
   return (
-    <div className="container d-flex flex-column justify-content-around fancyText projectHeight mb-5">
-      <div className="row rowHeight noOverLap">
-        <div className="col-md-7 ">
+    <div className="container d-flex flex-column fancyText ">
+      <div className="d-flex mb-5 mobileproject">
+        <div className=" ">
           <h2 className="">
             GreenTrip Planner.
             <span className="text-muted"> Know your carbon foot print.</span>
@@ -36,13 +36,17 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="col-md-5 ">
-          <img className=" img-fluid mx-auto" alt="500x500" src={GreenTrip} />
+        <div className=" ">
+          <img
+            className=" img-fluid mx-auto projectphoto"
+            alt="500x500"
+            src={GreenTrip}
+          />
         </div>
       </div>
 
-      <div className="row rowHeight noOverLap">
-        <div className="col-md-7 order-md-2">
+      <div className="d-flex mb-5 mobileproject">
+        <div className="">
           <h2 className="">
             Note. <span className="text-muted">Meet through music.</span>
           </h2>
@@ -65,13 +69,17 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="col-md-5 order-md-1">
-          <img className=" img-fluid mx-auto" alt="500x500" src={Note} />
+        <div className="">
+          <img
+            className=" img-fluid mx-auto projectphoto"
+            alt="500x500"
+            src={Note}
+          />
         </div>
       </div>
 
-      <div className="row rowHeight noOverLap">
-        <div className="col-md-7">
+      <div className="d-flex mb-5 mobileproject">
+        <div className="">
           <h2 className="">
             Focus.{" "}
             <span className="text-muted"> Minimalistic communication.</span>
@@ -95,8 +103,12 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="col-md-5">
-          <img className=" img-fluid mx-auto" alt="500x500" src={focus} />
+        <div className="">
+          <img
+            className=" img-fluid mx-auto projectphoto"
+            alt="500x500"
+            src={focus}
+          />
         </div>
       </div>
     </div>
