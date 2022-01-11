@@ -19,10 +19,10 @@ export default function Portfolio() {
             <p className="p-2">
               {" "}
               My name is James Sgarella. I am an entry level Web Developer with
-              Full stack expierence. 19 and still new to the game, I enrolled in
-              the Columbia Enginnering Coding BootCamp in Octuber 2021. With a
-              long list of working projects to futher improve my skills, my time
-              in the development world has just begun, with a lot ahead.{" "}
+              full stack experience. 19 and still new to the game, I completed
+              the Columbia Enginner Full Stack Coding Bootcamp in January 2022.
+              With a long list of working projects to futher improve my skills,
+              my time in the development world has just begun, with a lot ahead.{" "}
             </p>
           </div>
         </div>
