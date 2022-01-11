@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/New-portfolio/static/css/main.768b246a.css",
-    "main.js": "/New-portfolio/static/js/main.b8e34a47.js",
+    "main.css": "/New-portfolio/static/css/main.ee46bda5.css",
+    "main.js": "/New-portfolio/static/js/main.868538db.js",
     "static/media/self1.JPG": "/New-portfolio/static/media/self1.76400729ac185bfb178b.JPG",
     "static/media/self2.JPG": "/New-portfolio/static/media/self2.7b8472f754cfe5d63dbd.JPG",
     "static/media/Greentrip.png": "/New-portfolio/static/media/Greentrip.d9012c54fb8ed88151d9.png",
     "static/media/Note.png": "/New-portfolio/static/media/Note.1ed0dee8986a8787c40a.png",
     "static/media/focus.png": "/New-portfolio/static/media/focus.d8a6269014f8e85ce793.png",
     "index.html": "/New-portfolio/index.html",
-    "main.768b246a.css.map": "/New-portfolio/static/css/main.768b246a.css.map",
-    "main.b8e34a47.js.map": "/New-portfolio/static/js/main.b8e34a47.js.map"
+    "main.ee46bda5.css.map": "/New-portfolio/static/css/main.ee46bda5.css.map",
+    "main.868538db.js.map": "/New-portfolio/static/js/main.868538db.js.map"
   },
   "entrypoints": [
-    "static/css/main.768b246a.css",
-    "static/js/main.b8e34a47.js"
+    "static/css/main.ee46bda5.css",
+    "static/js/main.868538db.js"
   ]
 }
